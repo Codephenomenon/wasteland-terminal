@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasteland Terminal</title>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="./css/terminal.css">
+</head>
+<body>
+    <section class="app">
+        <img class="terminal" src="./images/terminal-main.png" alt="img"/>
+        <div class="container" id="container">
+            <div class="reflection"></div>
+            <button id="button" class="btn"></button>
+            <div id="header" class="text text-header"></div>
+            <div id="attemptHeader" class="text text-attempts"></div>
+            <div class="grid">
+            <div class="text identify"><ul class="list" id="iden1"></ul></div>
+            <div class="text fill"><table id="fill1" class="loadText"></table></div>
+            <div class="text identify identify-2"><ul class="list" id="iden2"></ul></div>
+            <div class="text fill fill-2"><table id="fill2" class="loadText"></table></div>
+            <div class="text test">
+                <div id="testList" class="test"></div>
+            </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./javascript/terminal.js"></script>
+</html>

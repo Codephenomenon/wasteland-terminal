@@ -1,0 +1,22 @@
+{
+  "name": "wastelandterminal",
+  "version": "1.0.0",
+  "description": "A replication of the Terminal minigame from the Fallout videogame series.",
+  "main": "index.html",
+  "scripts": {
+    "serve": "live-server --port=3000 --open=index.html --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fallout",
+    "terminal",
+    "hacking",
+    "game",
+    "javascript"
+  ],
+  "author": "Daniel Clayton",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

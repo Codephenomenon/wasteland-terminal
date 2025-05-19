@@ -1,0 +1,246 @@
+* {
+  font-size: 62.5%;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.app {
+  width: 100rem;
+  height: 100rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terminal {
+  position: absolute;
+  width: 85.4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8%;
+}
+
+.container {
+  width: 75rem;
+  height: 51.5rem;
+  background: radial-gradient(#0F0F0F 0%,#000000 100%);
+  position: relative;
+  border-radius: 10rem;
+}
+
+.container .endText {
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  top: 45%;
+}
+
+.container .endVictory {
+  position: absolute;
+  top: 45rem;
+  left: 5rem;
+}
+
+.container .endVictory p#victoryContainer {
+  font-size: 1.5rem;
+}
+
+.container .reflection {
+  width: 16rem;
+  height: 15rem;
+  background: radial-gradient(rgba(255,255,255,0.07) 0%, transparent 50%);
+  border-radius: 50%;
+  position: absolute;
+  left: 2.5rem;
+  top: 2.5rem;
+  z-index: 10;
+}
+
+.container .text {
+  color: #1AFF80;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.container .text-header {
+  position: absolute;
+  top: 1rem;
+  left: 2.75rem;
+  font-size: 2rem;
+  width: 48rem;
+}
+
+.container .text-attempts {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 6.5rem;
+  left: 3rem;
+}
+
+.container .attemptBlock {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: #1AFF80;
+  float: right;
+  margin: 0 0.3rem;
+}
+
+.container .btn {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  left: 56.5rem;
+  top: 58.1rem;
+  border-radius: 0.5rem;
+  background: #B83509;
+  border: none;
+}
+
+.container .btn:focus {
+  outline: 0;
+}
+
+.container .btn-active {
+  background: radial-gradient(#B83509 10%, #FF672B 100%);
+  box-shadow: 0 0 3rem 2rem rgba(207,82,0,0.3),
+              0 0 8rem 5rem rgba(207,82,0,0.3);
+}
+
+.container .grid {
+  width: 100%;
+  height: 40rem;
+  padding-left: 1rem;
+  position: relative;
+  top: 9rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.container .grid .identify {
+  grid-column: 1/2;
+  min-width: 0;
+  min-height: 0;
+}
+
+.container .grid .identify-2 {
+  grid-column: 5/6;
+  min-width: 0;
+  min-height: 0;
+}
+
+.container .grid .identify .list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container .grid .identify .list-item {
+  font-size: 1.5rem;
+  margin: 0.66rem 0 0.5rem 1rem;
+}
+
+.container .grid .fill {
+  grid-column: 2/5;
+  min-width: 0;
+  min-height: 0;
+}
+
+.container .grid .fill-2 {
+  grid-column: 6/9;
+  min-width: 0;
+  min-height: 0;
+}
+
+.container .grid .fill .loadText {
+  margin: 0.3rem 0 0 0.7rem;
+  padding: 0;
+  width: 100%;
+  height: 39rem;
+  letter-spacing: 0;
+}
+
+.container .grid .test {
+  grid-column: 9/11;
+  min-width: 0;
+}
+
+td {
+  font-size: 1.5rem;
+  padding: 0.5rem 0 0 0;
+}
+
+td.insertText {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0.3rem 0 0 0;
+  transition: all 0.2s;
+  z-index: 100;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+td.insertText:hover {
+  color: #000;
+  background-color: #1AFF80;
+}
+
+.test {
+  height: 41rem;
+  margin: 0;
+  padding: 0 0.5rem;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.test .unit {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 0%;
+  height: 2rem;
+  width: 2.7rem;
+  line-height: 2.5rem;
+}
+
+.test .unit-sub {
+  width: 100%;
+  line-height: 2.3rem;
+  height: 6.8rem;
+}
+
+.test .unit-sub span {
+  font-size: 1.5rem;
+}
+
+.test .unit-dud {
+  height: 2rem;
+  width: 100%;
+  line-height: 2.3rem;
+}
+
+.test .unit .block {
+  width: 1rem;
+  height: 1rem;
+  background-color: #1AFF80;
+  float: right;
+  margin: 0.6rem 0.3rem;
+  animation: flash 0.7s infinite;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
