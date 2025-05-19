@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is a fan-made recreation of the terminal hacking minigame from the Fallout series. It simulates the iconic green-on-black terminal interface where players must guess the correct password within a limited number of attempts. I originally developed this game on (Codepen)[https://codepen.io/TiredDev/pen/ejGNgK] when I was a student, in 2018.
+This is a fan-made recreation of the terminal hacking minigame from the Fallout series. It simulates the iconic green-on-black terminal interface where players must guess the correct password within a limited number of attempts. I originally developed this game on [Codepen](https://codepen.io/TiredDev/pen/ejGNgK) when I was a student, in 2018.
 
 ## Features
 
