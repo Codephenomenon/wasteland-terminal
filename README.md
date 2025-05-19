@@ -84,7 +84,7 @@ This is a fan project created for educational and entertainment purposes. The Fa
 
 ## License
 
-This project is available under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is available under the MIT License.
 
 ## Acknowledgments
 
